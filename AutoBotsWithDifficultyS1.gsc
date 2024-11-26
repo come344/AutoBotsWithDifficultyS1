@@ -108,7 +108,7 @@ setDiffBots()
         level waittill("connected", player);
         if(isBot(player))
         {
-			player maps\mp\bots\_bots_util::_id_16EB( common_scripts\utility::random( [ "regular", "hardened" ] ), undefined );
+			player maps\mp\bots\_bots_util::_id_16EB( common_scripts\utility::random( [ "Default" ] ), undefined );
         }
     }
 }
